@@ -1,0 +1,344 @@
+/*Start Body*/
+body{
+    columns: #24292e;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End Body*/
+
+/*start Debug */
+.bg-blue {
+    background-color:blue;
+}
+.bg-rgb {
+    background-color: rgb(199, 229, 241);
+}
+/*End Debug*/
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto
+    widht:90%
+}
+
+.container {
+        margin:10px auto;
+        overflow:auto;
+        width:100%;
+}
+/*End Container*/
+
+/*Start Logo*/
+.logo {
+    text-align-centre;
+}
+/*End Logo*/
+
+/*Start menu primer*/
+.menu-primer ul {
+    background-color: black;
+    border-radius: 4px ;
+    box-shadow:
+        0 3px 5px -1px; rgba(0,0,0,.2),
+        0 6px 10px 0; rgba (0,0,0,.14),
+        0 1px 18px 0; RGBA (0,0,0,.12);
+}
+.menu primer li {
+    border-right: 1px solid#d1d5da;
+    display: inline-block; 
+    margin:0 -4px;
+}
+.menu primer li a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px; 
+    text-transform:uppercase;
+}
+
+.menu-primer a:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: white;
+    color:black;
+    text-decoration: none;
+
+
+}
+/*End Menu Primer*/
+
+/*Start Anchor / Hyperlink*/
+a :link,
+a :visited {
+    color : black;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+/*End Anchor / Hyperlink*/
+
+/*Start Heading*/
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28 px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+/*End Heading*/
+
+/*Start Jumbotron*/
+.jumbotron { 
+    background-color: orange;
+    border: 1px solid;
+    padding: 20px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    widht: 49,5%;
+}
+
+.main-home-two {
+    float: right;
+    widht: 49,5%;
+
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: orange;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Testimonial*/
+testimonial {
+    border-left: 4px solid gray;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End Testimonial*/
+
+/*Start Menu Sekunder*/
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+
+.menu-sekunder li a
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    widht: 40%;
+}
+.menu .menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three {
+    widht: 30%;
+}
+.menu-sekunder-three li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    width: 49,5;
+
+}
+
+.main-home-two {
+    float: right;
+    widht: 49,5%
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color:orange ;
+    border: 1px solid;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color: white;
+    border: 1px solid;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Testimonial*/
+.testimonial {
+    border-left: 4px solid gray;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End Testimonial*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder {
+    background-color: orange;
+    border-bottom: 1px solid orange;
+    border-top: 1px solid orange;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font-size:14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul {
+    padding: 0;
+}
+.menu-sekunder li {
+    list-style: disc;
+}
+.menu-sekunder li a
+.menu-sekunder p {
+    font-size: 15px;
+}
+
+.menu-sekunder-one
+.menu-sekunder-two
+.menu-sekunder-three {
+    float: left;
+}
+.menu-sekunder-one {
+    width: 40%;
+}
+.menu-sekunder-two {
+    width: 30%;
+}
+.menu-sekunder-three li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Main*/
+.main-home-one {
+    float: left;
+    width: 49,5%;
+}
+.main-home-two {
+    float: right;
+    width: 49,5%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 200px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading {
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+.box-isi {
+    background-color:orchid ;
+    border: 1px solid orchid;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/*End Box*/
+
+/*Start Copyright*/
+.copyright p {
+    font-size: 15px;
+}
+/*End Copyright*/
+
+
